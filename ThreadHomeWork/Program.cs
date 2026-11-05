@@ -45,6 +45,7 @@ namespace ThreadHomeWork
                 cmd.StartInfo.RedirectStandardOutput = true; // перенаправляем стандартный вывод
                 cmd.StartInfo.CreateNoWindow = true; // не создаём новое окно для cmd
 
+
                 cmd.Start();
 
                 Console.WriteLine("[Поток 2] Результат команды dir:");
